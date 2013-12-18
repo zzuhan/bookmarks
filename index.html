@@ -5,44 +5,59 @@
 	<title>前端收藏夹</title>
 	<link rel="stylesheet" href="app/css/bootstrap.css">
 	<link rel="stylesheet" href="app/css/base.css">
+	<link rel="stylesheet" href="app/css/style.css">
 
-	<!-- 使用require.js来加载数据 -->
+
+	<!-- 使用seajs.js来加载数据 -->
 	<!-- 
 		* 更加灵活，不需要tools等结构，直接全由数据来获取，填充模版
-
 
 	 -->
 </head>
 <body>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand">前端收藏夹</a>
+			</div>
+		</div>
+	</nav>
 	<div class="container">
-		<h1>前端收藏夹</h1>
-		<h2>移动类</h2>
-		<h2>css库</h2>
-		<section id="tools">
-			<!-- <h2 class="title">开发协助</h2>
-			<p class="description">url帮你生成指定大小图片，模仿图片延迟，html5可视化编程，在线编写代码测试</p>
-			<ul>
-				<li>
-					<p><a href="url" class="name">name</a></p>
-					<p>介绍</p>						
-				</li>
-			</ul> -->
-		</section>
-		<h2 id="cheat-sheet">手册</h2>
-		<p class="description">主要就是指各种册子，css速查表，jquery速查表</p>
-
+		<section id="cdn"></section>
+		<section id="tool"></section>
+		<section id="cheat-sheet"></section>
+		<section id="ui"></section>
+		<section id="MV*"></section>
+		<section id="compatible"></section>
+			
 	</div>
-	<script type="text/template" id="item-template">
-		<h2 class="title"><%-name%> </h2>
-		<p class="description"><%-description%></p>
-		<% items.forEach(function(item){  %>
-			<li>
-				<p><a href="<%-item.url %>" class="name"><%-item.name %> </a></p>
-				<p><%-item.description %></p>						
+	<script type="text/template" id="section-template">
+		<h2 class="title"><%=name%> </h2>
+		<p class="description"><%=description%></p>
+		<ul class="site-list clearfix">
+		<% 
+			items.forEach(function(item){ 
+				item.description = item.description || '待补充';
+		%>
+			<li class="site">
+				<a href="<%=item.url %>" target="_blank" class="main">
+					<h3 class="name"><%=item.name %></h3>
+					<p class="desc"><%=item.description %></p>
+				</a>
 			</li>
 		<% }); %>
+		</ul>
 	</script>
-	<script src="app/js/lib/require.js" data-main="app/main.js">
+	<!-- 这两项后期都改造为使用seajs加载 -->
+	<script src="app/js/lib/183.js"></script>
+	<script src="app/js/lib/underscore.js"></script>
+	<script src="app/js/lib/template.js"></script>
+	<script src="app/js/lib/sea.js"></script>
+	<script type="text/javascript">
+	seajs.config({
+		base: './app/js'
+	});
+	seajs.use('main.js');
 
 	</script>
 </body>

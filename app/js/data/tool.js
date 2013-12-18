@@ -1,7 +1,8 @@
 // 加入企业标示，如twitter能有个网页标示出来是twitter
 
 define({
-	name: '开发协助',
+	id: 'tool',
+	name: '辅助工具',
 	description: 'url帮你生成指定大小图片，模仿图片延迟，html5可视化编程，在线编写代码测试',
 	items: [
 		{
@@ -28,7 +29,21 @@ define({
 				name: 'twitter',
 				type: 'company'
 			}
+		},
+		{
+			name: '在线JS/CSS/HTML压缩',
+			description: '',
+			url: 'http://tool.oschina.net/jscompress'	
+		},
+		{
+			name: 'sass',
+			description: 'css预编译',
+			url: 'http://sass-lang.com'
+		},
+		{
+			name: '阿里矢量图标库',
+			description: '方便的搜索功能，再也不用发愁到处找icon了，响应式设计必备',
+			url: 'http://www.iconfont.cn/'
 		}
-	],
-	num_items: 1
+	]
 });
