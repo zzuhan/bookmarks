@@ -44,6 +44,16 @@ define({
 			name: '阿里矢量图标库',
 			description: '方便的搜索功能，再也不用发愁到处找icon了，响应式设计必备',
 			url: 'http://www.iconfont.cn/'
+		},
+		{
+			name: '获取网站配色方案',
+			description: '获取网站配色，还有颜色占比，目前还不知其如何计算的',
+			url: 'http://webcolourdata.com/'
+		},
+		{
+			name： '随时随地创建静态文件服务器',
+			description: '基于nodejs的工具，方便的创建静态文件服务器,方便引入各种库',
+			url: 'https://npmjs.org/package/anywhere'
 		}
 	]
 });

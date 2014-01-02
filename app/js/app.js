@@ -13,7 +13,9 @@ define(function (require, exports, module) {
 	};
 	module.exports = App;
 
-	var render =  template.compile( $('#section-template').html() );
+	var tpl = require('./tpls/section.tpl');
+
+	var render =  template.compile( tpl );
 	console.log(dataSet);
 	_.each(dataSet, function (data) {
 		var html = render(data);

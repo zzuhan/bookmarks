@@ -29,33 +29,18 @@
 		<section id="ui"></section>
 		<section id="MV*"></section>
 		<section id="compatible"></section>
-			
 	</div>
-	<script type="text/template" id="section-template">
-		<h2 class="title"><%=name%> </h2>
-		<p class="description"><%=description%></p>
-		<ul class="site-list clearfix">
-		<% 
-			items.forEach(function(item){ 
-				item.description = item.description || '待补充';
-		%>
-			<li class="site">
-				<a href="<%=item.url %>" target="_blank" class="main">
-					<h3 class="name"><%=item.name %></h3>
-					<p class="desc"><%=item.description %></p>
-				</a>
-			</li>
-		<% }); %>
-		</ul>
-	</script>
+	
 	<!-- 这两项后期都改造为使用seajs加载 -->
 	<script src="app/js/lib/183.js"></script>
 	<script src="app/js/lib/underscore.js"></script>
 	<script src="app/js/lib/template.js"></script>
-	<script src="app/js/lib/sea.js"></script>
+	<script src="app/js/lib/sea.min.js"></script>
+	<!-- // <script src="app/js/lib/seajs-text.js"></script> -->
 	<script type="text/javascript">
 	seajs.config({
-		base: './app/js'
+		base: './app/js',
+		preload: ['lib/seajs-text']
 	});
 	seajs.use('main.js');
 
