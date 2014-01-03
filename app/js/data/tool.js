@@ -32,7 +32,7 @@ define({
 		},
 		{
 			name: '在线JS/CSS/HTML压缩',
-			description: '',
+			description: 'oschina提供，易用',
 			url: 'http://tool.oschina.net/jscompress'	
 		},
 		{
@@ -51,7 +51,7 @@ define({
 			url: 'http://webcolourdata.com/'
 		},
 		{
-			name： '随时随地创建静态文件服务器',
+			name: '随时随地创建静态文件服务器',
 			description: '基于nodejs的工具，方便的创建静态文件服务器,方便引入各种库',
 			url: 'https://npmjs.org/package/anywhere'
 		}

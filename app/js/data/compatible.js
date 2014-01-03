@@ -14,7 +14,7 @@ define({
 		},
 		{
 			"name": 'browserstack',
-			"description": "chrome插件，方便切换IE6,7,8"，
+			"description": "chrome插件，方便切换IE6,7,8",
 			"url": "http://www.browserstack.com/"
 		}
 	]
