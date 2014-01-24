@@ -54,6 +54,27 @@ define({
 			name: '随时随地创建静态文件服务器',
 			description: '基于nodejs的工具，方便的创建静态文件服务器,方便引入各种库',
 			url: 'https://npmjs.org/package/anywhere'
+		},
+		{
+			name: '正则表达式',
+			description: '功能强大，用户社区提供很多实用的正则',
+			url: 'file:///C:/Users/hanwencheng/Dropbox/libs/seajs/tests/research/parse-dependencies/test.html'
+
+		},
+		{
+			name: '正则解析树',
+			description: '显示一个可视的解析树',
+			url: 'http://jviereck.github.io/regexp.js/'
+		},
+		{
+			name: 'HEXPRESS',
+			description: '人类语言定义正则表达式',
+			url: 'http://krainboltgreene.github.io/hexpress/'
+		},
+		{
+			name: 'StackEdit',
+			description: 'Stack出品的Markdown编辑器',
+			url: 'https://stackedit.io/'
 		}
 	]
 });
