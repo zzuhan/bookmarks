@@ -18,11 +18,9 @@ define({
 			"url": "http://www.browserstack.com/"
 		},
 		{
-			"name": ""
+			"name": "modern.ie",
 			"url": "http://modern.ie"
-		},
-		{
-			
 		}
+		
 	]
 });

@@ -69,7 +69,7 @@ define({
 			name: '简单正则表达式',
 			description: '中国chinaz，易用，可满足简单需求测试',
 			url: 'http://tool.chinaz.com/regex'
-		}
+		},
 		{
 			name: 'HEXPRESS',
 			description: '人类语言定义正则表达式',
