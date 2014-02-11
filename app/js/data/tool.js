@@ -58,14 +58,18 @@ define({
 		{
 			name: '正则表达式',
 			description: '功能强大，用户社区提供很多实用的正则',
-			url: 'file:///C:/Users/hanwencheng/Dropbox/libs/seajs/tests/research/parse-dependencies/test.html'
-
+			url: 'I forget'
 		},
 		{
 			name: '正则解析树',
 			description: '显示一个可视的解析树',
 			url: 'http://jviereck.github.io/regexp.js/'
 		},
+		{
+			name: '简单正则表达式',
+			description: '中国chinaz，易用，可满足简单需求测试',
+			url: 'http://tool.chinaz.com/regex'
+		}
 		{
 			name: 'HEXPRESS',
 			description: '人类语言定义正则表达式',
@@ -75,6 +79,15 @@ define({
 			name: 'StackEdit',
 			description: 'Stack出品的Markdown编辑器',
 			url: 'https://stackedit.io/'
+		},
+		{
+			name: 'CSS3 Factory',
+			description: 'CSS3 工厂，辅助生成css3代码',
+			url: 'http://www.css3factory.com/'
+		},
+		{
+			name: 'CSS3 按钮交互效果',
+			url: 'http://tympanus.net/Development/CreativeButtons/'
 		}
 	]
 });

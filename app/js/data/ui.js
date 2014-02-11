@@ -16,6 +16,10 @@ define({
         {
             name: 'FlatUI',
             url: 'http://designmodo.github.io/Flat-UI/'
+        },
+        {
+            name: 'alloyui',
+            url: 'http://alloyui.com/'
         }
 
     ]
