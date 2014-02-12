@@ -88,6 +88,11 @@ define({
 		{
 			name: 'CSS3 按钮交互效果',
 			url: 'http://tympanus.net/Development/CreativeButtons/'
+		},
+		{
+			name: 'HTML5 幻灯片',
+			url: 'http://bartaz.github.io/impress.js'
 		}
+
 	]
 });

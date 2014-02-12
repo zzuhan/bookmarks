@@ -20,6 +20,10 @@ define({
 		{
 			"name": "modern.ie",
 			"url": "http://modern.ie"
+		},
+		{
+			"name": "mobile viewports",
+			"url": "http://www.quirksmode.org/mobile/viewports.html"
 		}
 		
 	]
