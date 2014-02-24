@@ -56,9 +56,9 @@ define({
 			url: 'https://npmjs.org/package/anywhere'
 		},
 		{
-			name: '正则表达式',
-			description: '功能强大，用户社区提供很多实用的正则',
-			url: 'I forget'
+			name: 'regexr ',
+			description: '功能强大，用户社区提供很多实用的正则like Regexp buddy',
+			url: 'http://www.regexr.com/'
 		},
 		{
 			name: '正则解析树',
@@ -88,10 +88,6 @@ define({
 		{
 			name: 'CSS3 按钮交互效果',
 			url: 'http://tympanus.net/Development/CreativeButtons/'
-		},
-		{
-			name: 'HTML5 幻灯片',
-			url: 'http://bartaz.github.io/impress.js'
 		}
 
 	]

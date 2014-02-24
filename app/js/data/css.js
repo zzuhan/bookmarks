@@ -12,6 +12,11 @@ define({
 			description: 'twitter公司出品的',
 			url: 'http://twitter.github.io/bootstrap/'
 
+		},
+		{
+			name: 'Semantic UI',
+			description: '待研究',
+			url: 'http://semantic-ui.com/'
 		}
 	],
 	items_count: 10

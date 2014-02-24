@@ -6,6 +6,7 @@ define(function (require, exports, module) {
 	exports.cdn = require('./cdn');
 	exports.ui = require('./ui');
 	exports.compatible = require('./compatible');
+	exports.docs = require('./docs');
 
 	// return {
 	// 	tool: tool,

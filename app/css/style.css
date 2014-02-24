@@ -94,3 +94,12 @@ section > .description {
 .site .main:hover .desc {
   display: block;
 }
+#content {
+  padding: 0 0 20px;
+  margin-bottom: 30px;
+}
+#footer {
+  text-align: center;
+  padding: 20px;
+  background: #e8e8e8;
+}
