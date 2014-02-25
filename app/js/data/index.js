@@ -8,10 +8,4 @@ define(function (require, exports, module) {
 	exports.compatible = require('./compatible');
 	exports.docs = require('./docs');
 
-	// return {
-	// 	tool: tool,
-	// 	cheatsheet: cheatsheet,
-	// 	cdn: cdn,
-
-	// }
 });
