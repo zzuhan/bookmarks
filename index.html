@@ -3,14 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>前端收藏夹</title>
-	<link rel="stylesheet" href="app/css/bootstrap.css">
-	<link rel="stylesheet" href="app/css/base.css">
-	<link rel="stylesheet" href="app/css/style.css">
-
+	<link rel="stylesheet" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 
 	<!-- 使用seajs.js来加载数据 -->
 	<!-- 
 		* 更加灵活，不需要tools等结构，直接全由数据来获取，填充模版
+		*
+		*
+		* 把想要描述的数据，放到title或者data-tooltip-text
 
 	 -->
 </head>
@@ -24,30 +26,45 @@
 	</nav>
 
 	<div id="content" class="container">
-		<section id="cdn"></section>
-		<section id="tool"></section>
-		<section id="cheat-sheet"></section>
-		<section id="ui"></section>
-		<section id="MV*"></section>
-		<section id="compatible"></section>
-		<section id="docs"></section>
+		<section id="site" class="link-box"></section>
+		<section id="tool" class="link-box"></section>
+		<section id="js" class="link-box"></section>
+		<section id="css" class="link-box"></section>
+		<section id="nodejs" class="link-box"></section>
+		<section id="ui" class="link-box"></section>
+		<section id="MV*" class="link-box"></section>
+		<section id="compatible" class="link-box"></section>
+		<section id="docs" class="link-box"></section>
+		<section id="cheat-sheet" class="link-box"></section>
 	</div>
 
 	<div id="footer">
 		copyright @2013-2014
 	</div>
 
-
+	<div id="navigation">
+		<span class="shortcut arrow-right"></span>
+		<ul class="nav-list">
+			<li><a href="#site">网站收藏</a></li>
+			<li><a href="#tool">工具</a></li>
+			<li><a href="#js">JavaScript</a></li>
+			<li><a href="#css">CSS</a></li>
+			<li><a href="#nodejs">NodeJS</a></li>
+		</ul>
+	</div>
 	
 	<!-- 这两项后期都改造为使用seajs加载 -->
-	<script src="app/js/lib/183.js"></script>
-	<script src="app/js/lib/underscore.js"></script>
-	<script src="app/js/lib/template.js"></script>
-	<script src="app/js/lib/sea.min.js"></script>
-	<!-- // <script src="app/js/lib/seajs-text.js"></script> -->
+	<script src="assets/js/lib/jquery183.js"></script>
+	<!-- 加载underscore做什么？ -->
+	<script src="assets/js/lib/underscore.js"></script>
+	<script src="assets/js/lib/template.js"></script>
+	<script src="assets/js/lib/sea.min.js"></script>
+	<script src="assets/js/lib/bootstrap.js"></script>
+
+	<!-- // <script src="assets/js/lib/seajs-text.js"></script> -->
 	<script type="text/javascript">
 	seajs.config({
-		base: './app/js',
+		base: './assets/js',
 		preload: ['lib/seajs-text']
 	});
 	seajs.use('main.js');

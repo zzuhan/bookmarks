@@ -5,3 +5,4 @@ function _isObject(obj) {
 function _instanceOf(o, type) {
 	return o && o.hasOwnProperty && (o instanceof type);
 }
+
